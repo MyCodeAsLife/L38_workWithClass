@@ -28,56 +28,6 @@ namespace L38_workWithClass
             _combatClass = combatClass;
         }
 
-        public int PositionX
-        {
-            get
-            {
-                return _positionX;
-            }
-            private set
-            {
-                if (value >= 0)
-                    _positionX = value;
-            }
-        }
-
-        public int PositionY
-        {
-            get
-            {
-                return _positionX;
-            }
-            private set
-            {
-                if (value >= 0)
-                    _positionX = value;
-            }
-        }
-
-        public string Name
-        {
-            get
-            {
-                return _name;
-            }
-            private set
-            {
-                _name = value;
-            }
-        }
-
-        public string ComatClass
-        {
-            get
-            {
-                return _combatClass;
-            }
-            private set
-            {
-                _combatClass = value;
-            }
-        }
-
         public void ShowInfo()
         {
             Console.WriteLine($"Местоположение игрока по x:{_positionX} y:{_positionY}" +
